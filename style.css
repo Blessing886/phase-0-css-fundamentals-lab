@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#featured-property img {
+display: block;
+margin: 0 auto;
+width: 900px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+p {
+  text-align: center;
+  width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+#details {
+  clear: both;
+  background-color: #f4f4f4;
+}
+
+#details div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  background-color: orangered;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#details div p, #details h3 {
+  margin: 10px 0;
+  color: black;
+}
